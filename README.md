@@ -21,8 +21,8 @@ This project is a Flask-based web application that lets users ask natural langua
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-nl2sql-flask.git
-cd ai-nl2sql-flask
+git clone https://github.com/your-username/ai-chatbot.git
+cd ai-chatbot
 ```
 
 ### 2. Create Virtual Environment (Optional but Recommended)
@@ -32,14 +32,20 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
+
 ### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
+or
+
+```bash
+pip install Flask mysql-connector-python python-dotenv google-generativeai markdown
+```
 
 ### 4. Run the Application
 ```bash
-python app.py
+python main.py
 ```
 
